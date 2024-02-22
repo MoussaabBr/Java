@@ -136,7 +136,7 @@ public class UserInterface {
         System.out.print("Enter your choice: ");
         while (!scanner.hasNextInt()) {
             System.out.println("Invalid input. Please enter a number.");
-            scanner.next(); // Consume the invalid input
+            scanner.next();
         }
         return scanner.nextInt();
     }
