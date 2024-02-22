@@ -142,7 +142,7 @@ public class UserInterface {
     }
 
     private static void addEmployee() {
-        scanner.nextLine();  // Consume the newline character
+        scanner.nextLine();  
         System.out.print("Enter employee name: ");
         String name = scanner.nextLine();
 
@@ -153,11 +153,11 @@ public class UserInterface {
         double salary;
         while (!scanner.hasNextDouble()) {
             System.out.println("Invalid input. Please enter a valid number for salary.");
-            scanner.next(); // Consume the invalid input
+            scanner.next(); 
         }
         salary = scanner.nextDouble();
 
-        scanner.nextLine();  // Consume the newline character
+        scanner.nextLine();  
         System.out.print("Enter employee start date: ");
         String date = scanner.nextLine();
 
@@ -177,7 +177,7 @@ public class UserInterface {
     }
 
     private static void removeEmployee() {
-        scanner.nextLine();  // Consume the newline character
+        scanner.nextLine(); 
         System.out.print("Enter the name of the employee to remove: ");
         String name = scanner.nextLine();
 
